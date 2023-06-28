@@ -88,14 +88,12 @@
                                           <EmptySpace max="32767" attributes="0"/>
                                           <Component id="atime" min="-2" pref="200" max="-2" attributes="0"/>
                                       </Group>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="jLabel14" alignment="0" min="-2" pref="109" max="-2" attributes="0"/>
-                                          <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Group type="102" attributes="0">
-                                              <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="fprice" max="32767" attributes="0"/>
-                                          </Group>
+                                      <Component id="jLabel14" alignment="0" min="-2" pref="109" max="-2" attributes="0"/>
+                                      <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="fprice" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
