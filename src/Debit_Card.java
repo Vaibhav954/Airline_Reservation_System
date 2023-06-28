@@ -24,7 +24,7 @@ public class Debit_Card extends javax.swing.JFrame {
         jLabel9 = new javax.swing.JLabel();
         atime2 = new javax.swing.JTextField();
         book_Ticket = new javax.swing.JButton();
-        Back = new javax.swing.JButton();
+        home = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -66,12 +66,12 @@ public class Debit_Card extends javax.swing.JFrame {
             }
         });
 
-        Back.setFont(new java.awt.Font("Arial Black", 1, 12)); // NOI18N
-        Back.setForeground(new java.awt.Color(51, 0, 204));
-        Back.setText("Back");
-        Back.addActionListener(new java.awt.event.ActionListener() {
+        home.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
+        home.setForeground(new java.awt.Color(51, 0, 204));
+        home.setText("Home");
+        home.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BackActionPerformed(evt);
+                homeActionPerformed(evt);
             }
         });
 
@@ -105,8 +105,8 @@ public class Debit_Card extends javax.swing.JFrame {
                                         .addGap(26, 26, 26)
                                         .addComponent(atime, javax.swing.GroupLayout.PREFERRED_SIZE, 202, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addGap(75, 75, 75)
-                                        .addComponent(Back, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))))
+                                        .addGap(82, 82, 82)
+                                        .addComponent(home)))))))
                 .addGap(77, 77, 77))
         );
         layout.setVerticalGroup(
@@ -129,7 +129,7 @@ public class Debit_Card extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(book_Ticket, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Back, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(home, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(34, 34, 34))
         );
 
@@ -141,12 +141,12 @@ public class Debit_Card extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(null,"Ticket Booked" );
     }//GEN-LAST:event_book_TicketActionPerformed
 
-    private void BackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BackActionPerformed
-        
+    private void homeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_homeActionPerformed
+
         setVisible(false);
-        Login ob=new Login();
+        Home ob=new Home();
         ob.setVisible(true);
-    }//GEN-LAST:event_BackActionPerformed
+    }//GEN-LAST:event_homeActionPerformed
 
    
     public static void main(String args[]) {
@@ -159,11 +159,11 @@ public class Debit_Card extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton Back;
     private javax.swing.JTextField atime;
     private javax.swing.JTextField atime1;
     private javax.swing.JTextField atime2;
     private javax.swing.JButton book_Ticket;
+    private javax.swing.JButton home;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
